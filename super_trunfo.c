@@ -21,8 +21,8 @@ int main() {
     printf("Digite o codigo do Estado (numero de 01-08): \n");
     scanf("%d", &numero1);
 
-    printf("Escreva o nome da cidade: \n");
-    scanf(" %49s", cidade1);
+    printf("Escreva o nome da cidade(sem espacao): \n");
+    scanf(" %49s",cidade1);
 
     printf("Digite o numero de habitantes da cidade: \n");
     scanf("%d", &habitantes1);
@@ -38,7 +38,7 @@ int main() {
 
     printf("\nCARTA 1\n");
     printf("Estado: %c\n", estadoEscolhido1);
-    printf("Codigo do estado: %d\n", numero1);
+    printf("Codigo do estado: %d %c\n", numero1, estadoEscolhido1);
     printf("Cidade: %s\n", cidade1);
     printf("Numero de habitantes: %d\n", habitantes1);
     printf("Area: %.2f km²\n", Area1);
@@ -60,7 +60,7 @@ int main() {
     printf("Digite o codigo do Estado (numero de 01-08): \n");
     scanf("%d", &numero2);
 
-    printf("Escreva o nome da cidade: \n");
+    printf("Escreva o nome da cidade(sem espaco): \n");
     scanf(" %49s", cidade2);
 
     printf("Digite o numero de habitantes da cidade: \n");
@@ -77,7 +77,7 @@ int main() {
 
     printf("\nCARTA 2\n");
     printf("Estado: %c\n", estadoEscolhido2);
-    printf("Codigo do estado: %d\n", numero2);
+    printf("Codigo do estado: %d %c\n", numero2, estadoEscolhido2);
     printf("Cidade: %s\n", cidade2);
     printf("Numero de habitantes: %d\n", habitantes2);
     printf("Area: %.2f km²\n", Area2);
@@ -86,4 +86,3 @@ int main() {
 
 return 0;
 } 
-
