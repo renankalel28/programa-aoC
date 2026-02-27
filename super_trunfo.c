@@ -20,7 +20,7 @@ int main() {
 // o usuario escolhe o codigo do estado digitando um numero de 01 a 08
     printf("Digite o codigo do Estado (numero de 01-08): \n");
     scanf("%d", &numero1);
-// o usuario escreve o nome da cidade 
+// o usuario escreve o nome da cidade (não pode haver espaço)
     printf("Escreva o nome da cidade(sem espacao): \n");
     scanf(" %49s",cidade1);
 // o usuario escreve o numero de habitantes da cidade escolhida
@@ -59,7 +59,7 @@ int main() {
 // o usuario escolhe o codigo do estado digitando um numero de 01 a 08
     printf("Digite o codigo do Estado (numero de 01-08): \n");
     scanf("%d", &numero2);
-// o usuario escreve o nome da cidade
+// o usuario escreve o nome da cidade (nao pode haver espaço)
     printf("Escreva o nome da cidade(sem espaco): \n");
     scanf(" %49s", cidade2);
 // o usuario escreve o numero de habitantes da cidade escolhida
